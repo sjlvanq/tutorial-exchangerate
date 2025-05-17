@@ -16,14 +16,16 @@ public class Main{
         // Variable donde almacenaremos la respuesta
         String responseBody;
 
-        // Nuestra solicitud será al servidor lode.uno,
+        // Nuestra solicitud se hará al servidor lode.uno,
         // le pediremos el recurso holamundo.txt"
         // Al siguiente String se lo pasaremos luego al
         // métod0 de HttpClient que construye un objeto
-        // del tipo respuesta.
+        // del tipo solicitud HttpRequest.
         String url = "https://lode.uno/holamundo.txt";
 
         // El Cliente es el objeto que envía la consulta
+        // como un objeto HttpRequest y recibe la respuesta
+        // como un objeto HttpResponse.
         HttpClient client = HttpClient.newHttpClient();
 
         // El Request es la solicitud que envía el Cliente
