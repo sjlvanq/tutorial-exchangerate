@@ -32,10 +32,10 @@ public class Main{
 //        main nuestro métod0 principal no hay a
 //        dónde delegar nada.
 //
-//        Lo ideal sería que si se produce algún
-//        error en la conexión, pueda presentarse
+//        Lo ideal sería que si se produjera algún
+//        error en la conexión, pudiera presentarse
 //        al usuario un mensaje amigable
-//        informándolo.
+//        informándoselo.
 //
 //        Entonces vamos ahora a dotar al código
 //        de una estructura básica para hacerlo.
@@ -76,9 +76,9 @@ public class Main{
 //        ningún problema con la conexión y el
 //        manejo será distinto; bien se podrá
 //        consultar el encabezado de la respuesta,
-//        o bien mediante la clave result del Json
-//        recibido (para el caso específico de la
-//        API de ExchangeRate).
+//        o bien la clave result del Json recibido 
+//        (para el caso específico de la API de 
+//        ExchangeRate).
 
     }
 }
