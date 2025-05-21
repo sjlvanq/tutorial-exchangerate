@@ -34,4 +34,8 @@ Cuando sea necesario y posible nos comunicamos por los canales de voz.
 
 Revísalos.
 
+Extra: moverse entre ramas y ejecutar:
+- https://www.youtube.com/watch?v=-XYR7KNvNMw
+- https://www.youtube.com/watch?v=OYPCI9f12Ic
+
 **Estamos en contacto.**
