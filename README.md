@@ -1,4 +1,4 @@
-# ¡Hola, elquilo!
+# ¡Hola, _ _ _ !
 
 Desde aquí podremos ir avanzando paso a paso.
 
