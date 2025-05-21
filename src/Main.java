@@ -14,29 +14,29 @@ public class Main{
 
         // Para esto último usaremos Gson
         // Con Gson podemos transformar un Json
-        // { nombre: 'elquino', anio: 2025 }
+        // { nombre: 'El programador', anio: 2025 }
         // en un objeto de Java que nos permita, por ejemplo,
         // mostrar en pantalla el valor de 'nombre' haciendo:
         // System.out.println(compa.nombre);
 
-        String json = "{nombre: 'El Quino', anio: 2025}";
+        String json = "{nombre: 'El programador', anio: 2025}";
 
         // Hemos definido un tipo de objeto al cual volcar
         // esta información en src/dto/Compa.java
 
         // Lo que sigue es, en principio, tan simple como hacer:
         Gson gson = new Gson(); // Creamos un objeto de tipo Gson
-        Compa elquino = gson.fromJson(json, Compa.class);
+        Compa programador = gson.fromJson(json, Compa.class);
 
         // Imprimimos el nombre
-        System.out.println(elquino.nombre());
+        System.out.println(programador.nombre());
 
         // El record Compa ha creado automáticamente
         // un atributo privado nombre
         // y un getter para ese atributo nombre()
 
         // También lo ha hecho con el año
-        System.out.println(elquino.anio());
+        System.out.println(programador.anio());
 
     }
 }
