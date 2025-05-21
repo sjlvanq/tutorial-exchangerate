@@ -46,17 +46,17 @@ public class Main{
         // -------------------------------
         // Ahora las claves del Json están en snake_case
         // Nuestro DTO tiene los atributos en camelCase
-        String json = "{nombre_nombre: 'El Quino', anio_anio: 2025}";
+        String json = "{nombre_nombre: 'El programador', anio_anio: 2025}";
 
         // LOWER_CASE_WITH_UNDERSCORES le dice a Gson que
         // los nombres en el JSON están en snake_case y
         // deben mapearse a atributos camelCase.
         Gson gson = new GsonBuilder().setFieldNamingPolicy(FieldNamingPolicy.LOWER_CASE_WITH_UNDERSCORES).create();
 
-        Compa elquino = gson.fromJson(json, Compa.class);
+        Compa programador = gson.fromJson(json, Compa.class);
 
-        System.out.println(elquino.nombreNombre());
-        System.out.println(elquino.anioAnio());
+        System.out.println(programador.nombreNombre());
+        System.out.println(programador.anioAnio());
 
         // ¡OK! Ahora ya sabemos cómo hay que definir
         // el record para mapear la respuesta de la API.
